@@ -1,0 +1,53 @@
+----------------------------------------------------------------------------
+|  02 - FIRST PROGRAM                                                      |
+----------------------------------------------------------------------------
+
+- First Program
+
+    #include <stdio.h>
+
+    int main(void) {
+        printf("Programming is fun.\n");
+    
+        return 0;
+    }
+
+
+
+- Compiling and Running First Program
+
+    # Compile with standard Unix compiler
+    $ cc prog1.c
+
+    # Compile with gcc
+    $ gcc prog1.c
+
+
+    # Run executable file
+    $ ./a.out
+
+
+    # Create custom name for executable
+    $ gcc prog1.c -o prog1
+
+
+
+- Displaying the Value of Variables
+
+    int value1, value2, sum;
+
+    value1 = 50;
+    value2 = 25;
+    sum = value1 + value2;
+
+    printf("The sum of %i and %i is %i\n", value1, value2, sum);
+
+
+
+- Comments
+
+    /* Multiline
+       Comments    */
+
+
+    // Single Line Comments

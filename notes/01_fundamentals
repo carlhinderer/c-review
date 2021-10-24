@@ -1,0 +1,45 @@
+----------------------------------------------------------------------------
+|  01 - FUNDAMENTALS                                                       |
+----------------------------------------------------------------------------
+
+- C Language History
+
+    - Created by Dennis Ritchie at Bell Labs in early 70s
+    - Widespread popularity in late 70s, grew along with Unix
+    - Language definition in K&R allowed for ambiguity in compiler design
+    - ANSI C ratified in 1989, C11 is latest
+
+
+
+- Higher Level Languages
+
+    - First Generation
+        - Machine Language
+        - Machine Instructions and Memory Locations
+
+    - Second Generation
+        - Assembly Language
+        - Symbolic Names for Memory Locations
+        - Assembler = Translates assembly language to machine instructions
+        - Still low-level, not portable
+
+    - Higher-Level Languages
+        - Portable, don't worry about architecture of particular machine
+        - FORTRAN
+        - Compiler = Translates high-level language to machine instructions
+
+
+
+- Compilation Process
+
+    Source Program (file.c)
+            |
+            v    Compilation (C to assembly to binary code)
+            |
+            v
+    Object File (file.o)
+            |
+            v    Link and create executable
+            |
+            v
+    Executable (a.out)
